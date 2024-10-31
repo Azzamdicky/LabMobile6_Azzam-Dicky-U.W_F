@@ -1,21 +1,21 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>Home</ion-title>
-  </ion-toolbar>
-</ion-header>
+# Tugas Pertemuan 6
+IONIC
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
+Nama: Azzam Dicky Umar Widadi 
+NIM: H1D022090  
+Shift KRS: D
+Shift Baru: F
 
-  <div id="container">
-    <ion-card>
+## Screenshot
+<img src="homeionic.png" width=500px>
+<img src="menuionic.png" width=500px>
+<img src="profileionic.png" width=500px>
+
+Pada tugas pertemuan 6 ini saya menggunakan komponen dari ionic component yaitu card
+
+1. Card untuk halaman Home
+```html
+<ion-card>
       <img src="assets/img/byd_seal.jpg" />
       <ion-card-header>
         <ion-card-title class="small-title">Mobil Sport Listrik Murah</ion-card-title>
@@ -60,5 +60,34 @@
         <ion-button expand="full" color="primary" class="detail-button">Detail</ion-button>
       </ion-card-content>
     </ion-card>
-  </div>
-</ion-content>
+```
+
+2. Bagian profile
+```html
+<div class="profile-container">
+      <ion-avatar class="profile-avatar">
+        <img src="assets/img/phoenix.jpg"/>
+      </ion-avatar>
+    
+      <h2 class="profile-name">Azzam Dicky Umar Widadi</h2>
+      <p class="profile-nim">H1D022090</p> <!-- Perbaikan di sini -->
+    
+      <div class="profile-info">
+      
+        <ion-item>
+          <ion-label position="stacked">Telepon</ion-label>
+          <ion-input type="tel" value="+6285456789054" disabled></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label position="stacked">Tanggal Lahir</ion-label>
+          <ion-input type="date" value="2000-01-01" disabled></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label position="stacked">Alamat</ion-label>
+          <ion-input type="text" value="Jl. Mawar, No. 18, Purwokerto Selatan" disabled></ion-input>
+        </ion-item>
+      </div>
+</div>
+```

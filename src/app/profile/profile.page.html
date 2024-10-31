@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ folder }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <div class="profile-container">
+      <ion-avatar class="profile-avatar">
+        <img src="assets/img/phoenix.jpg"/>
+      </ion-avatar>
+    
+      <h2 class="profile-name">Azzam Dicky Umar Widadi</h2>
+      <p class="profile-nim">H1D022090</p> <!-- Perbaikan di sini -->
+    
+      <div class="profile-info">
+      
+        <ion-item>
+          <ion-label position="stacked">Telepon</ion-label>
+          <ion-input type="tel" value="+6285456789054" disabled></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label position="stacked">Tanggal Lahir</ion-label>
+          <ion-input type="date" value="2000-01-01" disabled></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label position="stacked">Alamat</ion-label>
+          <ion-input type="text" value="Jl. Mawar, No. 18, Purwokerto Selatan" disabled></ion-input>
+        </ion-item>
+      </div>
+
+    </div>
+  </div>
+</ion-content>
