@@ -9,7 +9,7 @@ Shift Baru: F
 ## Screenshot
 <img src="homeionic.png" width=500px>
 <img src="menuionic.png" width=500px>
-<img src="profileionic.png" width=500px>
+<img src="profilionic.png" width=500px>
 
 Pada tugas pertemuan 6 ini saya menggunakan komponen dari ionic component yaitu card
 
